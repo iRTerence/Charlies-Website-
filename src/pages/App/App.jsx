@@ -11,6 +11,7 @@ import { faUsersLine } from '@fortawesome/free-solid-svg-icons'
 import { Routes, Route, useParams } from "react-router-dom"
 import axios from 'axios';
 import React, {useEffect, useState} from 'react'
+import Buyer from '../Buyer/Buyer';
 
 
 
@@ -25,7 +26,7 @@ function App() {
 
   useEffect( () => {
     async function getListings(){
-      let response = await axios.get("http://retsinterface.ca/api/getlistingsbycount?count=10")
+      let response = await axios.get("https://retsinterface.ca/api/getlistingsbycount?count=10")
       setListings(response.data)
       setLoading(true)
       console.log(showId)
@@ -52,6 +53,7 @@ function App() {
         <Route path="listing">
           <Route path=":id" element={<ShowPage listings={listings} loading={loading} key={window.location.pathname} setId={setId}/>} />
         </Route>
+        <Route path='buyer' element={<Buyer/>}></Route>
 
       </Routes>
       </div>

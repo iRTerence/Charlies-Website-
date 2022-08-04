@@ -26,13 +26,13 @@ export default function ShowPage(props) {
         async function getListing() {
 
 			try{
-				let  response = await axios.get(`http://retsinterface.ca/api/getlisting?mLSNumber=${id}`)
+				let  response = await axios.get(`https://retsinterface.ca/api/getlisting?mLSNumber=${id}`)
 				let data = response.data[0]
 				setListing(data)
 				props.setId(data.mlsNumber)
 				console.log(data.matrix_Unique_ID)
 				setTimeout(async () => {
-					let images = await axios.get(`http://retsinterface.ca/api/photoImport?mui=${data.matrix_Unique_ID}`);
+					let images = await axios.get(`https://retsinterface.ca/api/photoImport?mui=${data.matrix_Unique_ID}`);
 					setImageBytes(images.data)
 					setIsLoading(true)
 				 }, 2000)

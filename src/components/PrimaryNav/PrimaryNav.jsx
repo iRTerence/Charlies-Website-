@@ -26,7 +26,7 @@ export default function PrimaryNav() {
           </Nav>
           <Nav>
             <Nav.Link href="#deets" style={{paddingLeft: '22px', paddingRight: '22px'}}>Listings</Nav.Link>
-            <Nav.Link href="#deets" style={{paddingLeft: '22px',  paddingRight: '22px'}}>Buyers</Nav.Link>
+            <Nav.Link href="#deets" style={{paddingLeft: '22px',  paddingRight: '22px'}}><Link to="/buyer">Buyers</Link></Nav.Link>
 
 
             <NavDropdown title="Client tools" id="collasible-nav-dropdown" className={styles.links}>

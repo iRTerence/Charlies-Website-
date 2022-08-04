@@ -34,7 +34,7 @@
 }
 
 body, html {
-    /* overflow-x: hidden!important; */
+    overflow-x: hidden!important;
 
 
     font-family: 'Metropolis', sans-serif;

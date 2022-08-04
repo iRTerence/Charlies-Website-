@@ -1,0 +1,178 @@
+
+$xl:1440px;
+$lg:992px;
+$md:820px;
+$sm:576px;
+
+.buyer-banner{
+    height:550px;
+    background-image:url(../../imgs/hero.svg);
+    background-size: cover;
+    background-position: top center;
+    margin-bottom: 150px;
+    .containers {
+        padding-left: 250px;
+        padding-top: 100px;
+        font-family: 'Ivy Journal', 'IvyJournal Regular', Arial;
+        color: white;
+        h1 {
+            font-size: 60px;            
+        }
+        h2{
+            font-family: "IvyJournal Regular", Arial, sans-serif; 
+            font-weight: 300;
+            font-size: 40px;
+        }
+
+    }
+
+    @media screen and (max-width: $md) {
+        height:361px;
+        .containers {
+            padding-left: 76px;
+            padding-top: 64px;
+            
+            h1 {
+                font-size: 44px;            
+            }
+            h2{
+                font-size: 28px;
+                font-weight: normal;
+            }            
+        }
+    }
+
+    @media screen and (max-width: $sm) {
+        height:266px;
+        .containers {
+            padding-left: 19px;
+            padding-top: 48px;
+            width: 376px;    
+            h1 {
+                font-size: 40px;            
+            }
+            h2 {
+                font-size: 28px;
+                font-weight: normal;
+            }                         
+        }
+    }
+    
+}
+
+.buyers-text-left {
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    @media (min-width: $lg) {
+        margin-left: 250px;
+        padding-top: 25px;
+      }
+
+    @media(max-width: $lg){
+        text-align: center;
+    }
+    
+
+   p{
+       padding-top: 38px;
+   }
+}
+
+.buyer-image2{
+    height:950px;
+    width:1152x;
+    background-image:url(../../imgs/house-2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+}
+
+.row-2{
+    .p-font{
+        padding-top:40px;
+    }
+}
+
+
+
+.get-in-touch{
+    margin-bottom: 50px;
+    @media (max-width: $lg){
+        display:none;
+    }
+
+    height: 450px;
+    background-image:url(../../imgs/darkhome.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    button{
+        background: #C12424 0% 0% no-repeat padding-box;
+        border-radius: 8px;
+        color: white;
+        border: none;
+        width: 264px;
+        height: 58px;
+    }
+
+    h1{
+        text-align: center;
+        font: normal normal normal 40px/48px IvyJournal;
+        color: white
+    }
+    
+}
+
+.get-in-touch-mobile{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 261px;
+    margin-bottom:40px;
+    button{
+        background: #C12424 0% 0% no-repeat padding-box;
+        border-radius: 8px;
+        color: white;
+        border: none;
+        width: 264px;
+        height: 58px;
+        
+    }
+
+
+
+    h1{
+        text-align: center;
+        font: normal normal normal 40px/32px IvyJournal;
+        letter-spacing: 0px;
+        color: #000000;
+    }
+    h2{
+        text-align: center;
+        font-size: 22px;
+        font-weight:300;
+        color: #29282D;
+    }
+
+
+    @media (min-width: $lg){
+        display:none;
+    }
+
+    background-color: #EAEAEA;
+
+
+    @media(min-width: $md){
+        width: 458px;
+
+
+    }
+
+
+}
