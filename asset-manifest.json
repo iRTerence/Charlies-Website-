@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Charlies-Website-/static/css/main.2f4e3685.css",
+    "main.js": "/Charlies-Website-/static/js/main.23056a95.js",
+    "static/js/787.2b0a459f.chunk.js": "/Charlies-Website-/static/js/787.2b0a459f.chunk.js",
+    "static/media/hero.svg": "/Charlies-Website-/static/media/hero.2b2d485ba53db5b016c3.svg",
+    "static/media/darkhome.jpg": "/Charlies-Website-/static/media/darkhome.c1e073b4e82078877873.jpg",
+    "static/media/interior.jpg": "/Charlies-Website-/static/media/interior.bfa9d405859ba94da728.jpg",
+    "static/media/charlie-bg-removed.png": "/Charlies-Website-/static/media/charlie-bg-removed.80b7725413ebf89db9ab.png",
+    "static/media/Home.jpg": "/Charlies-Website-/static/media/Home.8f76a08bb654f281e4de.jpg",
+    "static/media/IvyJournal-Regular.ttf": "/Charlies-Website-/static/media/IvyJournal-Regular.60c243adc11d82320abb.ttf",
+    "static/media/IvyJournal-Thin.ttf": "/Charlies-Website-/static/media/IvyJournal-Thin.86f37f1dd4639023515d.ttf",
+    "static/media/awardsArtboard-2.svg": "/Charlies-Website-/static/media/awardsArtboard-2.aa2f08e8b44f81207eb7.svg",
+    "static/media/awardsArtboard-4.svg": "/Charlies-Website-/static/media/awardsArtboard-4.b7b31622c23cb62c2f58.svg",
+    "static/media/awardsArtboard-5.svg": "/Charlies-Website-/static/media/awardsArtboard-5.0acceeac8d86f12c2867.svg",
+    "static/media/awardsArtboard-1.svg": "/Charlies-Website-/static/media/awardsArtboard-1.3f0dd7ee02e2b78d0d9c.svg",
+    "static/media/awardsArtboard-3.svg": "/Charlies-Website-/static/media/awardsArtboard-3.da8b8cfc45aa3645ee62.svg",
+    "static/media/logo.svg": "/Charlies-Website-/static/media/logo.0b3c1e1521358a5f0a1c.svg",
+    "static/media/royallepage.svg": "/Charlies-Website-/static/media/royallepage.9349ce639c0a8a5c0b9d.svg",
+    "static/media/location-1.svg": "/Charlies-Website-/static/media/location-1.fe390894d427f6464338.svg",
+    "static/media/home.svg": "/Charlies-Website-/static/media/home.2f83c5d4a3be0fdbc976.svg",
+    "static/media/house.svg": "/Charlies-Website-/static/media/house.cbbc0a07d6db75f56b88.svg",
+    "static/media/price-tag.svg": "/Charlies-Website-/static/media/price-tag.4cb0cffa8251605ee15e.svg",
+    "static/media/growth.svg": "/Charlies-Website-/static/media/growth.9c50ceeee17aaef85c33.svg",
+    "static/media/market-value.svg": "/Charlies-Website-/static/media/market-value.635ec74d2872537965a4.svg",
+    "static/media/up.svg": "/Charlies-Website-/static/media/up.c1c3a51de3258d2246b0.svg",
+    "index.html": "/Charlies-Website-/index.html",
+    "static/media/down.svg": "/Charlies-Website-/static/media/down.2089a83793fcb234301c.svg",
+    "main.2f4e3685.css.map": "/Charlies-Website-/static/css/main.2f4e3685.css.map",
+    "main.23056a95.js.map": "/Charlies-Website-/static/js/main.23056a95.js.map",
+    "787.2b0a459f.chunk.js.map": "/Charlies-Website-/static/js/787.2b0a459f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f4e3685.css",
+    "static/js/main.23056a95.js"
+  ]
+}
