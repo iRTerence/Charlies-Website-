@@ -1,0 +1,384 @@
+$xl:1440px;
+$lg:992px;
+$md:820px;
+$sm:576px;
+
+.homeBanner {
+    height:550px;
+    background-image:url(../../imgs/hero.svg);
+    background-size: cover;
+    background-position: top center;
+    margin-bottom: 250px;
+    
+
+
+    .containers {
+        padding-left: 250px;
+        padding-top: 100px;
+        font-family: 'Ivy Journal', 'IvyJournal Regular', Arial;
+        color: white;
+        h1 {
+            font-size: 60px;            
+        }
+        h2{
+            font-family: "IvyJournal Regular", Arial, sans-serif; 
+            font-weight: 300;
+            font-size: 40px;
+        }
+
+    }
+
+    @media screen and (max-width: $md) {
+        .containers {
+            padding-left: 76px;
+            padding-top: 64px;
+            
+            h1 {
+                font-size: 44px;            
+            }
+            h2{
+                font-size: 28px;
+                font-weight: normal;
+            }            
+        }
+    }
+
+    @media screen and (max-width: $sm) {
+        .containers {
+            padding-left: 19px;
+            padding-top: 48px;
+            width: 376px;    
+            h1 {
+                font-size: 40px;            
+            }
+            h2 {
+                font-size: 28px;
+                font-weight: normal;
+            }                         
+        }
+    }
+    
+}
+
+.main{
+    margin-bottom: 100px;
+}
+
+.btnMid {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+
+}
+
+.listingsBtn {
+    background: #29282D 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    width: 364px;
+    height: 58px;
+    text-align: center;
+    font: normal normal normal 18px/25px Metropolis;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    text-align: center;
+    border-style: none;
+    margin-bottom: 100px
+
+
+    
+}
+
+.listingsBtn:hover{
+    background: #3D3C3D;
+}
+
+.homeValue{
+    background-color: #29282D;
+    padding-bottom: 50px;
+
+    .infoBtns{
+        @media screen and (max-width: $lg) {
+            display: none;
+        }
+    }
+
+    @media screen and (min-device-width: $lg) {
+        margin-bottom: 350px;
+    }
+
+.homeText {
+    width: 390px;
+}
+
+
+    text-align: center;
+
+    .homeFlex{
+        display:flex;
+        justify-content: center;
+    }
+
+    h1{
+        text-align: center;
+        font: normal normal normal 40px/48px IvyJournal;
+        color:white;
+
+    }
+    p{
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 20px;
+    }
+
+    @media screen and (max-device-width: $sm)  {
+        p{
+            margin: 10px 10px 0px 10px;
+        }
+        .homeFlex{
+            padding-bottom: 25px;
+        }
+        h1{
+            padding-top: 25px;
+        }
+
+    }
+
+
+    @media screen and (min-device-width: 482px) and (max-width: $lg) {
+        .homeText {
+            width: 600px;
+        }
+        .homeFlex{
+            padding-bottom: 25px;
+        }
+        h1{
+            padding-top: 25px;
+        }
+    }
+
+
+    .calcBtn {
+        background: #C19D65 0% 0% no-repeat padding-box;
+        box-shadow: 0px 1px 6px #00000029;
+        border-radius: 8px;
+        width: 228px;
+        height: 65px;
+        font: normal normal 500 25px/28px Metropolis;
+        color: white;
+        border: none;
+    }
+    @media screen and (min-width: $lg) {
+        height: 591px;
+        background-image:url(../../imgs/darkhome.jpg);
+        background-size: cover;
+        justify-content: center;
+        
+        .infoSquare{
+            height: 294px;
+            width: 600px;
+            box-shadow: 0px 6px 6px #00000029;
+            border-radius: 20px;
+            backdrop-filter: blur(28px);
+            margin: 75px;
+            opacity: .95;
+
+        }
+        
+        .homeText{
+            width: 750px;
+            padding-top:100px;
+
+        }
+
+
+        .infoBtns {
+            justify-content: center;
+
+
+
+            h1{
+                text-align: center;
+                font: normal normal normal 28px/32px IvyJournal;
+                letter-spacing: -1px;
+                color: #29282D;
+                padding-top: 75px;
+            }
+            .sellerBtn{
+                background: #C12424 0% 0% no-repeat padding-box;
+                border: 1px solid #FFFFFF;
+                border-radius: 6px;
+                width: 228px;
+                height: 65px;
+                font: normal normal medium 18px/32px Metropolis;
+                color: #FFFFFF;
+                margin-top: 35px;
+            }
+            .buyerBtn{
+                background: #C19D65 0% 0% no-repeat padding-box;
+                border: 1px solid #FFFFFF;
+                border-radius: 6px;
+                width: 228px;
+                height: 65px;
+                font: normal normal medium 18px/32px Metropolis;
+                color: #FFFFFF;
+                margin-top: 35px;
+            }
+        }
+
+    }
+}
+
+.mobileCalcBtn{
+    @media screen and (min-width: $lg) {
+        display: none;
+    }
+    .sellerSquare{
+        text-align: center;
+        background-color: #B12020;
+        padding: 35px;
+        h1{
+            font: normal normal normal 28px/36px IvyJournal;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+        }
+        button{
+            width: 264px;
+            height: 58px;
+            border: 1px solid var(--unnamed-color-ffffff);
+            box-shadow: 0px 3px 6px #00000029;
+            border: 1px solid #FFFFFF;
+            border-radius: 8px;
+            color: #FFFFFF;
+            font-size:18px;
+            background-color: #B12020;
+        }
+    }
+    .buyerSquare{
+        text-align: center;
+        background-color: #EAEAEA;
+        padding: 35px;
+        h1{
+            font: normal normal normal 28px/36px IvyJournal;
+            letter-spacing: 0px;
+            color: #000000;
+        }
+        button{
+            width: 264px;
+            height: 58px;
+            border: 1px solid var(--unnamed-color-ffffff);
+            box-shadow: 0px 3px 6px #00000029;
+            border: 1px solid #29282D;
+            border-radius: 8px;
+            color: #000000;
+            font-size:18px;
+            background-color: #EAEAEA;
+        }
+    }
+
+
+    // .key-icon {
+    //     height:36px;
+    //     width:40px;
+    //     background:url(../img/key.svg) no-repeat center;
+    //     background-size: cover;
+    // }
+
+    @media screen and (min-device-width: 482px) and (max-width: $lg) {
+        .seller-square{
+            button{
+                width:458px;
+            }
+        }
+        .buyer-square{
+            button{
+                width:458px;
+            }
+        }
+
+    }
+
+}
+
+.marketInsights{
+
+    h1{
+        text-align: center;
+    }
+
+
+    
+
+    @media screen and (min-device-width: 482px) and (max-width: $lg) {
+        .homepageText {
+            margin:50px;
+        }
+        .homepageHeader{
+            padding-top:50px;
+        }
+
+    }
+
+    @media screen and (max-width: $sm) {
+
+        p{
+            margin:15px;
+        }
+    
+        .insightTextBox{
+            padding-top: 35px;
+        }
+    
+    }
+
+
+
+    .interior{
+        background-image:url(../../imgs/interior.jpg);
+        background-size: cover;
+        background-position: top center;
+        height: 375px;
+        box-shadow: 0px 3px 6px #0000000D;
+
+    }
+
+    padding-bottom: 80px;
+    @media screen and (min-width: $lg) {
+        .insightTextBox{
+            width: 580px;
+            height: 248px;
+        }
+        .interior{
+            height: 660px;
+        }
+        .video{
+            margin-top:45px;
+        }
+    }
+    
+
+
+
+    .insightText{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+
+
+
+}
+
+.homepageHeader{
+    font: normal normal normal 40px/48px IvyJournal;
+    color: #000000;
+}
+.homepageText{
+    font-size: 20px;
+    color: #000000;
+}

@@ -1,0 +1,6 @@
+@font-face {
+    font-family: "IvyJournal";
+    src: local("IvyJournal"),
+     url("./fonts/IvyJournal/IvyJournal-Regular.ttf") format("truetype");
+    font-weight: bold;
+    }

@@ -1,0 +1,95 @@
+$xl:1440px;
+$lg:992px;
+$md:820px;
+$sm:576px;
+
+.topHeader{
+  height: 49px;
+  background: #29282D 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  // @media only screen and (max-device-width: 428px) {
+  //         display: none;
+  //     }
+  @media screen and (max-width: $lg) {
+      display: none;
+  }
+
+
+
+}
+
+.secondaryNav {
+  display:flex;
+  justify-content: flex-end;
+  margin-right: 0;
+  padding-right: 250px;
+  a {
+      color: white;
+      padding: 0px 15px 0px 15px;
+      text-decoration:none;
+      
+  }
+  a:hover {
+      color: #DDDDDD
+  }
+  a:active{
+      color:#B12020
+  }
+  i {
+      padding: 0px 10px 0px 10px;
+  }
+
+  button {
+      background: #B12020 0% 0% no-repeat padding-box;
+      border-radius: 13px 13px 13px 13px;
+      opacity: 1;
+      outline:none; 
+      border-style: none;
+      font-family: 'Metropolis', sans-serif;
+      color: white;
+      font-size: 14px;
+      letter-spacing: 0px;
+      width: 91px;
+      height: 26px;
+      box-sizing: content-box;
+      line-height: 0;
+      margin-left: 20px;
+      font-weight: 550;
+  }
+
+}
+
+.socialmediaIcons {
+  color: #FFFFFF;
+  padding: 0px 7.5px 0px 7.5px;
+}
+
+/* .navBarWrapper {
+  width: 100vw;
+  height: 50px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.navBar li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.navBar a {
+  color: white;
+  text-decoration: none;
+} */

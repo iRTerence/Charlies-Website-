@@ -1,0 +1,119 @@
+$xl:1440px;
+$lg:992px;
+$md:820px;
+$sm:576px;
+
+.noUnderline{
+    text-decoration: none;
+}
+.smallerWidth{
+
+}
+.featureCard {
+    height: 440px;
+    background-color: #F8F8F8;
+    box-shadow: 3px 3px 10px #29282D1A;
+    width: 100%;
+    
+    .icons {
+        width: 19px;
+        height: 18px;
+        color: grey;
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+    
+    .featureImg {
+        height: 273px;
+        background-image:url(../../imgs/Home.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px 10px !important;
+
+
+    }
+    h3 {
+        padding-top: 10px;
+        text-align: left;
+        font-family: "IvyJournal Regular", Arial, sans-serif; 
+        // font-family: 'Metropolis-Regular', sans-serif;
+        font-style: bold;
+        font-weight: 500;
+        letter-spacing: 0px;
+        color: #29282D;
+        font-size:25px;
+        padding: 10px 0 0 10px;
+        letter-spacing: -1px;
+
+    }
+    h4 {
+        text-align: left;
+        font: normal normal bold 17.5px/20px Metropolis;
+        letter-spacing: -1px;
+        color: #000000;
+        opacity: 1;
+        margin: 0;
+        padding-left: 10px;
+    }
+    p{
+        text-align: left;
+        font: normal normal bold 14px/16px Metropolis;
+        letter-spacing: 0px;
+        color: #B1B1B1;
+        opacity: 1;
+        font-weight: 400;
+        padding-left: 10px;
+    }
+    .description{
+        padding: 10px;
+
+    }
+    .sale {
+        width: 91px;
+        height: 26px;
+        background: #02B27C 0% 0% no-repeat padding-box;
+        border-radius: 13px;
+        box-sizing: content-box;
+        line-height: 0;
+        border-style: none;
+        font: normal normal bold 14px/16px Metropolis;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        a{
+            color: white;
+        }
+
+    }
+}
+
+.bed {
+    display:flex;
+    padding-left: 25px;
+    p{
+        padding-left: 6px;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        font-family: 'Metropolis Semi Bold', sans-serif;
+        font-size: 14px;
+    }
+
+}
+
+.carouselMain{
+    // margin-top:150px;
+}
+
+.featured{
+    margin-top: 200px;
+    text-align: center;
+    font-family: 'Ivy Journal SemiBold', sans-serif;
+    font-size: 40px;
+    margin-bottom: 50px;
+
+    @media screen and (max-width: $md) {
+        font-size: 28px;
+        margin-top: 80px;
+
+    }
+}

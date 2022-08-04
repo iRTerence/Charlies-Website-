@@ -1,0 +1,506 @@
+$xl:1440px;
+$lg:992px;
+$md:820px;
+$sm:576px;
+
+// Home Show Page
+
+.hero-show {
+    /* Position the image container (needed to position the left and right arrows) */
+    font-family: 'Metropolis', sans-serif;
+
+    @media only screen and (max-width: 821px){
+        .containered{
+            padding: 0;
+        }
+    }
+    
+    @media only screen and (min-width: $lg) {
+    
+        padding-top: 96px;
+        }
+    
+    .containers {
+        position: relative;
+      }
+      
+      /* Hide the images by default */
+      .mySlides {
+        display: none;
+      }
+      
+      /* Add a pointer when hovering over the thumbnail images */
+      .cursor {
+        cursor: pointer;
+      }
+      
+      /* Next & previous buttons */
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+      }
+      
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+      
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      
+      /* Container for image text */
+      .caption-container {
+        text-align: center;
+        background-color: #222;
+        padding: 2px 16px;
+        color: white;
+      }
+      
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Six columns side by side */
+      .column {
+        float: left;
+        width: 16.66%;
+      }
+      
+      /* Add a transparency effect for thumnbail images */
+      .demo {
+        opacity: 0.6;
+      }
+      
+      .active,
+      .demo:hover {
+        opacity: 1;
+      }
+    }
+    
+    .base-info{
+        padding-top:41px;
+    
+        .price {
+            font: normal normal normal 42px/42px Metropolis;
+        }
+        h4{
+            font: normal normal normal 25px/30px Metropolis;
+            margin-bottom: 0;
+        }
+        .city-address{
+            color: #6C6C6C;
+            font: normal normal bold 16px/18px Metropolis;
+        }
+        .home-icons{
+            padding-top:20px;
+            p{
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+    
+        }
+    
+        .mls-info{
+            p{
+                margin-bottom: 0;
+            }
+        }
+    
+        .hero-buttons{
+            text-align: right;
+        }
+        .compare-button{
+            background: #B12020 0% 0% no-repeat padding-box;
+            border-radius: 6px;
+            width: 220px;
+            text-align: center;
+            font: normal normal normal 16px/20px Metropolis;
+            color: white;
+            border: none;
+            height: 47px;
+    
+    
+        }
+        .save-button{
+            border: 1px solid #29282D;
+            border-radius: 6px;
+            width: 100px;
+            margin-top: 20px;
+            color: black;
+            background-color: white;
+            border: 1px solid #29282D;
+    
+            height: 39px;
+    
+    
+        }
+    }
+    
+    .mobile-base-info{
+        padding-top:41px;
+    
+        .price{
+            font: normal normal normal 25px/30px Metropolis;
+            letter-spacing: -0.5px;
+            color: #29282D;
+    
+        }
+        h4{
+            font: normal normal bold 18px/20px Metropolis;
+            letter-spacing: -1px;
+            margin-bottom: 0px;
+        }
+        .city-address{
+            
+            font: normal normal normal 16px/18px Metropolis;
+            letter-spacing: -0.5px;
+            color: #6C6C6C;
+    
+        }
+        .bed-bath{
+            padding-left:0px;
+        }
+        .mls-info{
+            p{
+                margin-bottom: 0;
+                font: normal normal normal 17px/21px Metropolis;
+                color: black;
+    
+            }
+    
+        }
+        .hero-buttons{
+            text-align: right;
+        }
+    
+    
+            .compare-button{
+                background: #B12020 0% 0% no-repeat padding-box;
+                border-radius: 6px;
+                width: 170px;
+                text-align: center;
+                font: normal normal normal 16px/20px Metropolis;
+                color: white;
+                border: none;
+                height: 39px;
+        
+        
+            }
+            .save-button{
+                border: 1px solid #29282D;
+                border-radius: 6px;
+                width: 100px;
+                margin-top: 20px;
+                color: black;
+                background-color: white;
+                border: 1px solid #29282D;
+        
+                height: 39px;
+        
+        
+            }
+    
+        
+    
+    }
+    
+    .spacing{
+        letter-spacing: -2px;
+    }
+    
+    td{
+        border-top: #dee2e6 1px solid;
+        border-bottom: #dee2e6 1px solid;
+    }
+    
+    .border-left{
+        border-left: #dee2e6 1px solid;
+    }
+    
+    .property-info{
+        font: normal normal normal 28px/32px IvyJournal;
+        p{
+            font-size: 20px;
+        }
+    }
+    
+    .property-description{
+        padding-top: 80px;
+    
+        .border-left{
+            width: 350px;
+            padding-left: 15px;
+        }
+        
+        .mobile-header-table{
+            display:flex;
+            justify-content: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+    
+        }
+    
+    
+        @media screen and (max-width: $md){
+            padding-top:20px;
+            .property-info{
+                text-align: center;
+                p{
+                    font-size: 16px;
+                }
+            
+            }
+        }
+    
+    
+        .header-table{
+            @media screen and (min-width: $lg){
+                float: right;
+    
+            }
+    
+    
+    
+            td{
+                height: 50px;
+                padding-right: 25px;
+            }
+        }
+    
+    
+    }
+    
+    .general-info{
+        .wpcf7{
+            width: 460px;
+        }
+    }
+    
+    .wpcf7-spinner{
+        display:none;
+    }
+    
+    .contact-title{
+        text-align: center;
+        padding-top: 45px;
+        font: normal normal normal 28px/32px IvyJournal;
+    
+    }
+    
+    .center-pfp{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .general-info{
+    
+    
+        h1{
+            font: normal normal normal 28px/32px IvyJournal;
+        }
+        .border-left{
+            width: 80%;
+            padding-left: 15px;
+        }
+        table{
+            tr{
+                height: 50px;
+                padding-right: 25px;
+                td{
+                    padding-right:20px;
+                }
+            }
+    
+        }
+    
+        .contact-card .card-border{
+            width: 350px;
+        }
+        .contact-card-info{
+            display: flex;
+            justify-content: center;
+        }
+        .contact-section{
+            margin-top: 0;
+        }
+    }
+    
+    .amenities{
+        padding-top: 85px;
+    }
+    
+    .similar-homes{
+        text-align: center;
+        padding-top: 50px;
+        background-color: #F0F2F4;
+        h1{
+            font: normal normal normal 40px/48px IvyJournal;
+        }
+    }
+
+    .contact-info {
+        font-size: 20px;
+    }
+
+
+    
+
+.contact-card{
+    
+    .name{
+        font-size: 25px;
+        margin-bottom:5x;
+    }
+    .realty{
+        font-size: 16px;
+        margin-bottom: 0px;
+
+    }
+    .title{
+        font-size: 16px;
+        color: #6C6C6C;
+        margin-bottom: 20px;
+    }
+    .contact-info{
+        font-size: 20px;
+    }
+    
+    .envelope{
+        margin-top: 6px;
+        margin-right: 10px;
+    }
+
+    .card-border{
+        height: 465px;
+        box-shadow: 0px 3px 6px #00000029;
+        border: 1px solid #DDDDDD;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        padding: 50px 50px 50px 50px;
+
+    }
+
+    .pfp {
+        width: 220px;
+        height: 213px;
+        background-image:url(../../imgs/charlie-bg-removed.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        border: 1px #DDDDDD solid;
+        border-radius: 50%;
+    
+    }
+
+
+
+
+}
+.mobile-contacts{
+    width:100%;
+    height: 152px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+
+}
+
+.mobile-contact{
+    width:100%;
+    height: 152px;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+
+
+    .mobile-pfp {
+        width: 100px;
+        height: 100px;
+        background-image:url(../../imgs/charlie-bg-removed.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        border: 1px #DDDDDD solid;
+        border-radius: 50%;
+
+    
+    }
+
+    .mobile-content{
+        margin-left: 35px;
+        text-align: left;
+
+        .mobile-name{
+            font-size: 20px;
+            color: #29282D;
+
+        }
+       
+
+        .mobile-realty{
+            font-size: 16px;
+            color: #29282D;
+            margin-bottom: -6px;
+
+        }
+        .mobile-title{
+            font-size: 16px;
+            color: #6C6C6C;
+        }
+        .mobile-name{
+            margin-bottom:0px;
+
+        }
+        .mobile-envelope{
+        margin-top: 3px;
+        margin-right: 10px;
+        }
+        .mobile-contact-info{
+            font-size: 1.1rem;
+        }
+    }
+}
+
+.loading-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin-top:   250px;
+    margin-bottom: 250px;
+
+    
+
+    @media only screen and (max-width: $md){
+        margin-top:   50px;
+        margin-bottom: 50px;
+    }
+
+}

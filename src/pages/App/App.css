@@ -1,0 +1,46 @@
+
+
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css");
+@font-face { 
+    font-family: 'IvyJournal Regular'; 
+    src: url(../../fonts/IvyJournal/IvyJournal-Regular.ttf); 
+    font-weight: normal; 
+    }
+
+@font-face { 
+    font-family: 'IvyJournal Thin'; 
+    src: url(../../fonts/IvyJournal/IvyJournal-Thin.ttf); 
+    font-weight: normal; 
+    }
+    
+
+@media only screen and (max-width: 600px) and (min-width: 200px)  {
+    body, html {
+        overflow-x: hidden!important;
+        font-family: 'Metropolis', sans-serif;
+        position:relative;
+    }
+}
+
+.default {
+
+    /* overflow-y: hidden!important; */
+    
+
+}
+
+.navbar-toggler-icon  {
+    color :white !important;
+}
+
+body, html {
+    /* overflow-x: hidden!important; */
+
+
+    font-family: 'Metropolis', sans-serif;
+    width:100%;
+    /* overflow-x:hidden;
+
+    position:relative; */
+}
+

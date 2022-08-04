@@ -1,0 +1,126 @@
+$xl:1440px;
+$lg:992px;
+$md:820px;
+$sm:576px;
+
+.comeFirst{
+    margin-bottom: 150px;
+    .comeBtnsContainer{
+        text-align: center;
+    }
+
+    p {
+        font-family: 'Metropolis', sans-serif;
+
+    }
+
+    @media screen and (max-width: $sm) {
+        .comeBtnsContainer{
+            background-color: #EAEAEA;
+        }
+        
+        h1{
+            padding-top: 50px;
+        }
+
+        .contactBtn{
+            width: 250px;
+            height: 40px;
+            margin-bottom: 10px;
+
+        }
+
+        .meetBtn{
+            width: 250px;
+            height: 40px;
+            margin-bottom: 10px;
+
+        }
+
+        .comeBtnsContainer{
+            padding-bottom: 40px;
+        }
+
+    }
+
+    @media screen and (min-device-width: 482px) and (max-width: $lg) {
+        .comeBtnsContainer{
+            background-color: #EAEAEA;
+        }
+        h1{
+            padding-top: 50px;
+        }
+
+        .contactBtn{
+            width: 250px;
+            height: 40px;
+            margin-bottom: 10px;
+
+        }
+
+        .meetBtn{
+            width: 250px;
+            height: 40px;
+            margin-bottom: 10px;
+
+        }
+
+        .comeBtnsContainer{
+            padding-bottom: 40px;
+            text-align: center;
+        }
+
+    }
+
+
+
+    @media screen and (min-width: $lg) {
+        height:550px;
+        background-color: #DCE0E5;
+        background-image:url(../../imgs/charlie-bg-removed.png);
+        background-size: cover;
+        background-position: top center;
+        overflow: hidden !important;
+
+        .comeBtns{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            p{
+                font-size: 22px;
+                color: #29282D;
+            }
+            button{
+                width: 264px;
+                height: 58px;
+                margin: 10px;
+
+            }
+
+            
+
+    
+        }
+    }
+
+    .contactBtn{
+        background: #C12424 0% 0% no-repeat padding-box;
+        border-radius: 8px;
+        border: none;
+        color: white;
+        
+    }
+    .meetBtn{
+        background: #C19D65 0% 0% no-repeat padding-box;
+        border-radius: 8px;
+        border: none;
+        color: white;
+    }
+    
+}
+
+.homepageHeader{
+    font: normal normal normal 40px/48px IvyJournal;
+    color: #000;
+}
+
