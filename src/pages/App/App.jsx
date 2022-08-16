@@ -48,7 +48,7 @@ function App() {
       <PrimaryNav />
       <div>
       <Routes>
-        <Route path='/' element={<Home listings={listings} loading={loading}/>}/>
+        <Route path='/Charlies-Website-' element={<Home listings={listings} loading={loading}/>}/>
         <Route path='about' element={<AboutUs/>}/>
         <Route path="listing">
           <Route path=":id" element={<ShowPage listings={listings} loading={loading} key={window.location.pathname} setId={setId}/>} />

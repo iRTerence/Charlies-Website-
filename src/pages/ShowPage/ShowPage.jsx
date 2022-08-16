@@ -60,7 +60,7 @@ export default function ShowPage(props) {
     <>
     {isLoading ? (
     <>
-	{props.loading ? (
+	{isLoading ? (
 		<>
 		{isLoading ? (<PhotoGallery images={imageBytes} loading={isLoading}/>) : <></>}
         {/* <div><img src={`data:image/png;base64,${imageBytes[3]}`} /> {imageBytes}</div> */}
@@ -131,7 +131,7 @@ export default function ShowPage(props) {
         				</tr>
         				<tr>
         				  <td>Municipality</td>
-        					<td className="border-left">{listing.municipality}</td>
+        					<td className="border-left">{listing.municipality ? listing.municipality : <>N/A</>}</td>
 
                             
         				</tr>
@@ -187,7 +187,7 @@ export default function ShowPage(props) {
         				</tr>
         				<tr>
         				  <td>Municipality</td>
-        					<td className="border-left">{listing.municipality}</td>
+        					<td className="border-left">{listing.municipality ? listing.municipality : <>N/A</>}</td>
 
                             
                             
@@ -224,7 +224,7 @@ export default function ShowPage(props) {
         		<table className="header-table">
         			<tr>
         			  <td>Municipality</td>
-        				<td className="border-left">{listing.municipality}</td>
+        				<td className="border-left">{listing.municipality ? listing.municipality : <>N/A</>}</td>
                     
 
                         
@@ -254,7 +254,7 @@ export default function ShowPage(props) {
         		<table className="header-table">
         			<tr>
         			  <td>Municipality</td>
-        				<td className="border-left">{listing.municipality}</td>
+        				<td className="border-left">{listing.municipality ? listing.municipality : <>N/A</>}</td>
 
                         
                         
@@ -277,7 +277,7 @@ export default function ShowPage(props) {
         		<table className="header-table">
         			<tr>
         			  <td>Municipality</td>
-        				<td className="border-left">{listing.municipality}</td>
+        				<td className="border-left">{listing.municipality ? listing.municipality : <>N/A</>}</td>
                     
 
                         
@@ -292,7 +292,7 @@ export default function ShowPage(props) {
         			</tr>
         			<tr>
         				<td>Appliances</td>
-        					<td className="border-left">{listing.appliances}</td>
+        					<td className="border-left">{listing.appliances ? listing.appliances : 'N/A'}</td>
                         
 
                             
@@ -438,7 +438,7 @@ export default function ShowPage(props) {
         				<table class="header-table">
         					<tr>
         					  <td>Municipality</td>
-        						<td class="border-left">{listing.municipality}</td>
+        						<td class="border-left">{listing.municipality ? listing.municipality : <>N/A</>}</td>
 
 
 
@@ -467,7 +467,7 @@ export default function ShowPage(props) {
         				<table class="header-table">
         					<tr>
         					  <td>Municipality</td>
-        						<td class="border-left">{listing.municipality}</td>
+        						<td class="border-left">{listing.municipality ? listing.municipality : <>N/A</>}</td>
 
 
 
@@ -491,7 +491,7 @@ export default function ShowPage(props) {
         				<table class="header-table">
         					<tr>
         					  <td>Municipality</td>
-        						<td class="border-left">{listing.municipality}</td>
+        						<td class="border-left">{listing.municipality ? listing.municipality : <>N/A</>}</td>
 
 
 
@@ -505,7 +505,7 @@ export default function ShowPage(props) {
         					</tr>
         					<tr>
         						<td>Appliances</td>
-        							<td class="border-left">{listing.appliances}</td>
+        							<td class="border-left">{listing.appliances ? listing.appliances : 'N/A'}</td>
 
 
         					</tr>
